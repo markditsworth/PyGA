@@ -7,7 +7,7 @@ Created on Mon Sep  3 00:08:08 2018
 """
 import numpy as np
 
-from PyGA import genetic
+from pyga import genetic
 
 def fcn_(x,y):
     return 4597 - np.square(x-9) - np.square(y-22)
@@ -55,8 +55,8 @@ solution, fitness = pop.evolve()
 
 xx,yy = decode(solution)
 
-print xx, yy
-print fitness
+print(xx, yy)
+print(fitness)
 
         
     
